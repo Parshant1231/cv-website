@@ -7,11 +7,11 @@ export default function AboutSection() {
     <div className="">
       {/* <h2 className="text-3xl font-bold text-white pb-3 mb-6 inline-block">
         <span className="text-[#6366f1] border-b-4 pb-1.5">#Abo</span>ut Me
-      </h2> */}
+      </h2>  asd*/}
 
       <div className="text-gray-300  space-y-6 ">
         <p>
-          I'm a MERN Stack Developer from India, working in web development and
+          I&#39;m a MERN Stack Developer from India, working in web development and
           software engineering. I enjoy turning complex problems into simple,
           beautiful and intuitive designs.
         </p>
@@ -25,7 +25,7 @@ export default function AboutSection() {
       </div>
 
       <div className="mt-12 ">
-        <h3 className="text-2xl font-bold text-white mb-6">What I'm Doing</h3>
+        <h3 className="text-2xl font-bold text-white mb-6">What I&#39;m Doing</h3>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="bg-[#222] p-6 rounded-md">

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { useState } from "react";
 import AboutSection from "@/components/about-section";
 import ResumeSection from "@/components/resume-section";
@@ -14,7 +15,6 @@ import {
   Facebook,
   Linkedin,
   Instagram,
-  ChevronLeft,
   ChevronDown,
 } from "lucide-react";
 
@@ -111,8 +111,8 @@ export default function Home() {
           {/* Profile Image */}
           <div className="flex-shrink-0 w-16 h-16 md:w-26 md:h-26 bg-[#222] rounded-lg p-1">
             <div className="w-full h-full rounded-lg overflow-hidden">
-              <img
-                src="/placeholder.svg?height=200&width=200"
+              <Image
+                src="/img.jpeg"
                 alt={`${name} avatar`}
                 width={64}
                 height={64}

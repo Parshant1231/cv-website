@@ -19,7 +19,7 @@ export default function SidebarProfile({ name, title, email, phone, dob, locatio
         <div className="w-32 h-32 bg-[#222] rounded-lg p-3 mb-4">
           <div className="w-full h-full rounded-lg overflow-hidden flex items-center justify-center">
             <Image
-              src="/placeholder.svg?height=200&width=200"
+              src="/img.jpeg" // Replace with your profile image path
               alt={`${name} avatar`}
               width={200}
               height={200}

@@ -1,11 +1,7 @@
 "use client";
-import { BookOpen, Briefcase, ExternalLink } from "lucide-react";
+import { BookOpen, ExternalLink } from "lucide-react";
 
 export default function ResumeSection() {
-  const fileId = "1Q-654I3ZSW6lyHGMo7jhDP1umITXZg1o";
-  const handleViewResume = () => {
-    window.open("_blank", "noopener,noreferrer");
-  };
 
   return (
     <div>

@@ -1,5 +1,5 @@
 import type React from "react"
-import { Code, Database, Layout, Smartphone, Server, Globe } from "lucide-react"
+import { Code, Database, Layout, Server, Globe } from "lucide-react"
 
 interface Service {
   icon: React.ReactNode

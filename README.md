@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal CV Portfolio Website
 
-## Getting Started
+Hi, I'm **Parshant** – a passionate **MERN Stack Developer** from India. I specialize in building responsive, user-friendly websites and full-stack applications that are both functional and visually appealing.
 
-First, run the development server:
+💼 *"My job is to build your website so that it is functional and user-friendly, but also attractive and impactful."*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Aspiring Full-Stack Developer skilled in the **MERN stack** and **Next.js**, with hands-on experience in academic and personal projects. I enjoy solving complex problems with simple and elegant solutions and have a deep interest in modern web technologies.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🌍 Kangra, Himachal Pradesh, India  
+- 📧 [parshant0011pk@gmail.com](mailto:parshant0011pk@gmail.com)  
+- 📞 +91 7876339596  
+- 💼 [LinkedIn – Parshant](#) *(Add your LinkedIn URL)*
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Professional Summary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 💡 Strong foundation in web development principles  
+- 🔁 Committed to continuous learning and improvement  
+- 🧪 Hands-on with real-world projects and problem-solving  
+- 💻 Currently pursuing MCA and building professional-grade applications  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎓 Education
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Bachelor of Science (B.Sc) in Computer Science**  
+Govt College Dhaliara, Kangra  
+*Graduated: May 2024*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Master of Computer Applications (MCA)**  
+Sant Baba Bhag Singh University, Punjab  
+*August 2024 – Present*
+
+---
+
+## 💼 Experience
+
+**Fresher** *(No formal work experience yet)*
+
+- ✅ Completed multiple academic and personal projects  
+- 🔧 Self-learned tools and frameworks beyond curriculum  
+- 📈 Focused on building a strong developer portfolio  
+
+---
+
+## 🔧 Technical Skills
+
+**Frontend:**  
+`HTML5`, `CSS3`, `JavaScript`, `React.js`, `Next.js`, `Tailwind CSS`
+
+**Backend:**  
+`Node.js`, `Express.js`
+
+**Database:**  
+`MongoDB` | Learning: `PostgreSQL`, `Prisma ORM`
+
+**Auth & Validation:**  
+`JWT`, `Zod`
+
+**Tools:**  
+`Git`, `GitHub`, `Postman`, `VS Code`
+
+**Others:**  
+`REST APIs`, `JSON`, `Responsive Design`
+
+---
+
+## 💡 What I'm Doing
+
+### 🌐 Web Development  
+High-quality development of websites at a professional level.
+
+### 🔗 REST API  
+Node.js + Express backend with clean architecture, JWT auth, rate-limiting, and Prisma integration.
+
+### 🗃️ Database  
+PostgreSQL with Prisma ORM – efficient, scalable, and type-safe.
+
+### 💻 MERN Stack  
+Full-stack applications using MongoDB, Express, React, and Node.js.
+
+---
+
+## 🚀 Projects
+
+### 🧠 Health AI Chatbot  
+- AI-powered chatbot using Gemini API  
+- Handles user health queries through a seamless chat UI  
+- Clean, minimal design for better UX  
+
+### 💸 Simple Payment App (Paytm Clone)  
+- User-to-user payments with transaction sessions  
+- Balance display and transaction history  
+- Simple, intuitive interface  
+
+---
+
+## 🌱 Additional Information
+
+- **Languages:** English, Hindi  
+- **Interests:** Web Development, AI Chatbots, Open Source Contribution  
+
+---
+
+## 🔗 Live Website
+
+[Visit My CV Website](#) *(Add your deployment URL here)*

@@ -113,7 +113,7 @@ export default function Home() {
             <div className="w-full h-full rounded-lg overflow-hidden">
               <Image
                 src="/img.jpeg"
-                alt={`${name} avatar`}
+                alt={`avatar`}
                 width={64}
                 height={64}
                 className="w-full h-full object-cover"

@@ -33,10 +33,11 @@ export default function PortfolioSection() {
     activeFilter === "all" ? projects : projects.filter((project) => project.category === activeFilter)
 
   return (
-    <div>
+    <div className="w-full px-4 sm:px-6 xl:w-[94%] xl:mx-auto grid gap-5">
+
       {/* <h2 className="text-3xl font-bold text-white border-b border-gray-800 pb-3 mb-8 inline-block">Portfolio</h2> */}
 
-      <div className="flex gap-4 mb-8 flex-wrap">
+      <div className="flex gap-6 mb-8 flex-wrap">
         {categories.map((category) => (
           <button
             key={category.id}
@@ -50,7 +51,7 @@ export default function PortfolioSection() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProjects.map((project) => (
           <div key={project.id} className="group relative overflow-hidden rounded-lg">
             <Image

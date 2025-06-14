@@ -32,13 +32,13 @@ export default function Home() {
         return <PortfolioSection />;
       case "services":
         return <ServicesSection />;
-      case "blog":
-        return (
-          <div className="min-h-[60vh]">
-            <h2 className="text-3xl font-bold mb-6">Blog</h2>
-            <p>Blog content coming soon...</p>
-          </div>
-        );
+      // case "blog":
+      //   return (
+      //     <div className="w-screen px-4 sm:px-6 lg:px-8 min-h-[60vh] grid grid-cols-1d">
+      //       <h2 className="text-3xl font-bold mb-6">Blog</h2>
+      //       <p>Blog content coming soon...</p>
+      //     </div>
+      //   );
       // case "contact":
       //   return <ContactSection />;
       default:
@@ -86,7 +86,11 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-start border-t border-stone-700 pt-4 transition-opacity duration-300 delay-400">
         <div className="flex gap-3">
-          <a href="https://x.com/999Parshant" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://x.com/999Parshant"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Twitter
               className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
               size={20}
@@ -119,7 +123,6 @@ export default function Home() {
 
   return (
     <main className=" box-content flex-col md:flex-row min-h-screen max-sm:mx-0 sm:mx-15 mx-22 xl:mx-25 2xl:mx-65 xl:top-17  bg-[#111111] relative  text-[13px] md:text-[16px]  text-ellipsis duration-500">
-      
       {/* Mobile & Tablet View - Top Header */}
       <div className="xl:hidden w-full bg-[#1a1a1a] p-5 sm:p-10 mt-2 sm:mt-16 mb-6 border border-[#383838] rounded-3xl">
         <div className="flex items-center gap-4">
@@ -193,7 +196,7 @@ export default function Home() {
                   "resume",
                   "portfolio",
                   "services",
-                  "blog",
+                  // "blog",
                   // "contact",
                 ].map((section) => (
                   <button

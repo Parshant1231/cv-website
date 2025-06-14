@@ -4,10 +4,9 @@ import { BookOpen, ExternalLink } from "lucide-react";
 export default function ResumeSection() {
 
   return (
-    <div>
+    <div className=" px-4 ">
       {/* Download Resume Link */}
-      <div className="my-4">
-      </div>
+
       <div className="flex flex-col justify-end sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
         
         <a
@@ -20,7 +19,7 @@ export default function ResumeSection() {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Education Section */}
         <div>
           <div className="flex items-center gap-3 mb-6">

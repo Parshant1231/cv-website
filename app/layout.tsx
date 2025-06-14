@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Parshant - MERN Stack Developer",
   description: "Portfolio site for Parshant, MERN Stack Developer",
   icons: {
-    icon: "/favicon.png", // or .png if you're using png
+    icon: "/favicon1.png", // or .png if you're using png
   },
 }
 

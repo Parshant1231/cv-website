@@ -1,6 +1,6 @@
 "use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 import { useState } from "react";
 import AboutSection from "@/components/about-section";
 import ResumeSection from "@/components/resume-section";
@@ -16,10 +16,12 @@ import {
   Linkedin,
   Instagram,
   ChevronDown,
+  Github,
+  Twitter,
 } from "lucide-react";
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState("about Me");
+  const [activeSection, setActiveSection] = useState("about");
   const [showTabletContacts, setShowTabletContacts] = useState(false);
 
   const renderSection = () => {
@@ -59,23 +61,23 @@ export default function Home() {
           <Mail className="text-[#6366f1]" size={20} />
           <div>
             <p className="text-gray-400 text-sm">Email</p>
-            <p className="text-white">your.email@example.com</p>
+            <p className="text-white">parshant0011pk@gmail.com</p>
           </div>
         </div>
         <div className="flex items-center gap-4 transition-opacity duration-300 delay-150">
           <Phone className="text-[#6366f1]" size={20} />
           <div>
             <p className="text-gray-400 text-sm">Phone</p>
-            <p className="text-white">+1 234 567 890</p>
+            <p className="text-white">+91 7876339596</p>
           </div>
         </div>
-        <div className="flex items-center gap-4 transition-opacity duration-300 delay-200">
+        {/* <div className="flex items-center gap-4 transition-opacity duration-300 delay-200">
           <Calendar className="text-[#6366f1]" size={20} />
           <div>
             <p className="text-gray-400 text-sm">Availability</p>
             <p className="text-white">Mon-Fri, 9AM - 5PM</p>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center gap-4 transition-opacity duration-300 delay-300">
           <Calendar className="text-[#6366f1]" size={20} />
           <div>
@@ -86,25 +88,40 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-start border-t border-stone-700 pt-4 transition-opacity duration-300 delay-400">
         <div className="flex gap-3">
-          <Facebook
-            className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
-            size={20}
-          />
-          <Linkedin
-            className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
-            size={20}
-          />
-          <Instagram
-            className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
-            size={20}
-          />
+          <a href="https://x.com/999Parshant" target="_blank" rel="noopener noreferrer">
+            <Twitter
+              className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
+              size={20}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/parshant-kumar-074a592a6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin
+              className="linkdin-img text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
+              size={20}
+            />
+          </a>
+          <a
+            href="https://github.com/Parshant1231"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github
+              className="text-[#9F9F9F] hover:text-stone-300 cursor-pointer transition-colors duration-200"
+              size={20}
+            />
+          </a>
         </div>
       </div>
     </div>
-  )
+  );
 
   return (
     <main className=" box-content flex-col md:flex-row min-h-screen max-sm:mx-0 sm:mx-15 mx-22 xl:mx-25 2xl:mx-65 xl:top-17  bg-[#111111] relative  text-[13px] md:text-[16px]  text-ellipsis duration-500">
+      
       {/* Mobile & Tablet View - Top Header */}
       <div className="xl:hidden w-full bg-[#1a1a1a] p-5 sm:p-10 mt-2 sm:mt-16 mb-6 border border-[#383838] rounded-3xl">
         <div className="flex items-center gap-4">
@@ -139,7 +156,7 @@ export default function Home() {
                 setShowTabletContacts(!showTabletContacts);
               }}
             >
-              {showTabletContacts ? 'Hide Contacts' : 'Show Contacts'}
+              {showTabletContacts ? "Hide Contacts" : "Show Contacts"}
             </span>
           </button>
           {/* Toggle Button for Tablet View */}
@@ -174,7 +191,7 @@ export default function Home() {
             <div>
               <div className="hidden  lg:flex justify-end px-4 mb-4 gap-5 rounded-bl-xl bg-darkgray shadow-xl/15">
                 {[
-                  "about Me",
+                  "about",
                   "resume",
                   "portfolio",
                   "services",
@@ -202,16 +219,16 @@ export default function Home() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-6 z-50  backdrop-blur-lg border-t border-[#383838] rounded-t-2xl">
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50  backdrop-blur-lg border-t border-[#383838] rounded-t-2xl">
         <div className="flex justify-center px-1">
           {["about", "resume", "portfolio", "services"].map((section) => (
             <button
               key={section}
               onClick={() => setActiveSection(section)}
               className={`px-6 py-4 text-base cursor-pointer duration-300 ${
-                activeSection.toLowerCase() === section
+                activeSection === section
                   ? "text-[#6366f1] "
-                  : "hover:text-gray-400 text-white teA"
+                  : "hover:text-gray-400 text-white"
               }`}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}

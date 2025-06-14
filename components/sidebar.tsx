@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 import SidebarProfile from "./sidebar-profile";
 
 export default function SideBar() {
@@ -12,9 +12,9 @@ export default function SideBar() {
         dob="October 20, 2003"
         location="Parshant's Location"
         socials={[
-          { icon: <Facebook className="w-4 h-4" />, href: "#" },
-          { icon: <Instagram className="w-4 h-4" />, href: "#" },
-          { icon: <Linkedin className="w-4 h-4" />, href: "#" },
+          { icon: <Twitter className="w-4 h-4" />, href: "https://x.com/999Parshant" },
+          { icon: <Linkedin className="w-4 h-4" />, href: "https://www.linkedin.com/in/parshant-kumar-074a592a6" },
+          { icon: <Github className="w-4 h-4" />, href: "https://github.com/Parshant1231" },
         ]}
       />
     </div>

@@ -78,6 +78,8 @@ export default function SidebarProfile({ name, title, email, phone, dob, locatio
           <a
             key={index}
             href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center rounded-full bg-[#222] text-gray-400 hover:text-[#6366f1] transition-colors"
           >
             {social.icon}

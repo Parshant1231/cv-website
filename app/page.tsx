@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from "react";
 import AboutSection from "@/components/about-section";
 import ResumeSection from "@/components/resume-section";
 import PortfolioSection from "@/components/portfolio-section";
@@ -11,11 +11,11 @@ import SideBar from "@/components/sidebar";
 import {
   Mail,
   Phone,
-  Calendar,
   Linkedin,
   ChevronDown,
   Github,
   Twitter,
+  MapPin,
 } from "lucide-react";
 
 export default function Home() {
@@ -46,6 +46,44 @@ export default function Home() {
     }
   };
 
+  const ContactInfo = () => {
+    const email = "parshant0011pk@gmail.com";
+    const phone = "+917876339596";
+    const location = "https://maps.app.goo.gl/9UDmHxBDLXsaD1ny8";
+
+    return (
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 border-t border-stone-700 py-5">
+        <div className="flex items-center gap-4 transition-opacity duration-300 delay-100">
+          <a href={`mailto:${email}`}>
+            <Mail className="w-5 h-5 text-[#6366f1]" />
+          </a>
+          <div>
+            <p className="text-gray-400 text-sm">Email</p>
+            <p className="text-white">parshant0011pk@gmail.com</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 transition-opacity duration-300 delay-150">
+          <a href={`tel:${phone}`}>
+            <Phone className="w-5 h-5 text-[#6366f1]" />
+          </a>
+          <div>
+            <p className="text-gray-400 text-sm">Phone</p>
+            <p className="text-white">+917876339596</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 transition-opacity duration-300 delay-300">
+          <a href={location} target="_blank" rel="noopener noreferrer">
+            <MapPin className="w-5 h-5 text-[#6366f1]" />
+          </a>
+          <div>
+            <p className="text-gray-400 text-sm">Location</p>
+            <p className="text-white">Badhal Uparli, Himachal Pradesh 177113</p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   const TabletContactGrid = () => (
     <div
       className={`md:flex  will-change-transform flex-col gap-4 bg-[#1A1A1A] rounded-lg mt-4 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] overflow-hidden ${
@@ -54,36 +92,7 @@ export default function Home() {
           : "max-h-0 opacity-0 invisible p-0"
       }`}
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 border-t border-stone-700 py-5">
-        <div className="flex items-center gap-4 transition-opacity duration-300 delay-100">
-          <Mail className="text-[#6366f1]" size={20} />
-          <div>
-            <p className="text-gray-400 text-sm">Email</p>
-            <p className="text-white">parshant0011pk@gmail.com</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-4 transition-opacity duration-300 delay-150">
-          <Phone className="text-[#6366f1]" size={20} />
-          <div>
-            <p className="text-gray-400 text-sm">Phone</p>
-            <p className="text-white">+91 7876339596</p>
-          </div>
-        </div>
-        {/* <div className="flex items-center gap-4 transition-opacity duration-300 delay-200">
-          <Calendar className="text-[#6366f1]" size={20} />
-          <div>
-            <p className="text-gray-400 text-sm">Availability</p>
-            <p className="text-white">Mon-Fri, 9AM - 5PM</p>
-          </div>
-        </div> */}
-        <div className="flex items-center gap-4 transition-opacity duration-300 delay-300">
-          <Calendar className="text-[#6366f1]" size={20} />
-          <div>
-            <p className="text-gray-400 text-sm">Location</p>
-            <p className="text-white">Badhal Uparli, Himachal Pradesh 177113</p>
-          </div>
-        </div>
-      </div>
+      <ContactInfo />
       <div className="flex items-center justify-start border-t border-stone-700 pt-4 transition-opacity duration-300 delay-400">
         <div className="flex gap-3">
           <a

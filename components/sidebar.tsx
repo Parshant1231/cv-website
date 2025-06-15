@@ -8,9 +8,8 @@ export default function SideBar() {
         name="Parshant"
         title="MERN stack developer"
         email="parshant0011pk@gmail.com"
-        phone="+91 78763-39596"
-        dob="October 20, 2003"
-        location="Parshant's Location"
+        phone="+917876339596"
+        location="Badhal Uparli, Himachal Pradesh 177113"
         socials={[
           { icon: <Twitter className="w-4 h-4" />, href: "https://x.com/999Parshant" },
           { icon: <Linkedin className="w-4 h-4" />, href: "https://www.linkedin.com/in/parshant-kumar-074a592a6" },

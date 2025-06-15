@@ -1,18 +1,24 @@
-import type React from "react"
-import Image from "next/image"
-import { Mail, Phone, Calendar, MapPin } from "lucide-react"
+import type React from "react";
+import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 interface SidebarProfileProps {
-  name: string
-  title: string
-  email: string
-  phone: string
-  dob: string
-  location: string
-  socials: Array<{ icon: React.ReactNode; href: string }>
+  name: string;
+  title: string;
+  email: string;
+  phone: string;
+  location: string;
+  socials: Array<{ icon: React.ReactNode; href: string }>;
 }
 
-export default function SidebarProfile({ name, title, email, phone, dob, location, socials }: SidebarProfileProps) {
+export default function SidebarProfile({
+  name,
+  title,
+  email,
+  phone,
+  location,
+  socials,
+}: SidebarProfileProps) {
   return (
     <div className="h-full flex flex-col overflow-y-auto">
       <div className="flex flex-col items-center mb-8">
@@ -28,43 +34,45 @@ export default function SidebarProfile({ name, title, email, phone, dob, locatio
           </div>
         </div>
         <h1 className="text-2xl font-bold text-white mb-1">{name}</h1>
-        <p className="text-sm text-gray-400 bg-[#222] px-3 py-1 rounded-full">{title}</p>
+        <p className="text-sm text-gray-400 bg-[#222] px-3 py-1 rounded-full">
+          {title}
+        </p>
       </div>
 
       <div className="border-t border-gray-800 pt-6 space-y-6 flex-1">
         <div className="flex items-center gap-3">
           <div className="text-[#6366f1]">
-            <Mail className="w-5 h-5" />
+            <a href={`mailto:${email}`}>
+              <Mail className="w-5 h-5" />
+            </a>
           </div>
           <div>
             <p className="text-xs text-gray-400">EMAIL</p>
-            <p className="text-sm text-white">{email}</p>
+            <p className="text-sm text-white ">{email}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-3">
           <div className="text-[#6366f1]">
-            <Phone className="w-5 h-5" />
+            <a href={`tel:${phone}`}>
+              <Phone className="w-5 h-5" />
+            </a>
           </div>
           <div>
             <p className="text-xs text-gray-400">PHONE</p>
-            <p className="text-sm text-white">{phone}</p>
+            <p className="text-sm text-white ">{phone}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-3">
           <div className="text-[#6366f1]">
-            <Calendar className="w-5 h-5" />
-          </div>
-          <div>
-            <p className="text-xs text-gray-400">DOB</p>
-            <p className="text-sm text-white">{dob}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-3">
-          <div className="text-[#6366f1]">
-            <MapPin className="w-5 h-5" />
+            <a
+              href="https://maps.app.goo.gl/9UDmHxBDLXsaD1ny8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MapPin className="w-5 h-5" />
+            </a>
           </div>
           <div>
             <p className="text-xs text-gray-400">LOCATION</p>
@@ -87,5 +95,5 @@ export default function SidebarProfile({ name, title, email, phone, dob, locatio
         ))}
       </div>
     </div>
-  )
+  );
 }

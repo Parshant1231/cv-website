@@ -1,112 +1,116 @@
-# 🌐 Personal CV Portfolio Website
+# ☁️ Parshant | Cloud & DevOps Engineer
 
-Hi, I'm **Parshant** – a passionate **MERN Stack Developer** from India. I specialize in building responsive, user-friendly websites and full-stack applications that are both functional and visually appealing.
+Hi, I'm **Parshant** – an aspiring **Cloud & DevOps Engineer** from India.
 
-💼 *"My job is to build your website so that it is functional and user-friendly, but also attractive and impactful."*
+I design and deploy **production-ready, scalable, and highly available cloud architectures** using AWS and modern DevOps practices.
+
+💼 *"I build infrastructure that is scalable, secure, automated, and production-ready."*
 
 ---
 
 ## 📄 About Me
 
-Aspiring Full-Stack Developer skilled in the **MERN stack** and **Next.js**, with hands-on experience in academic and personal projects. I enjoy solving complex problems with simple and elegant solutions and have a deep interest in modern web technologies.
+I am currently pursuing **MCA** and specializing in **Cloud Computing, DevOps, and Infrastructure Engineering**.  
+My focus is on designing real-world cloud architectures that follow industry best practices including high availability, fault tolerance, CI/CD automation, and containerized deployments.
 
 - 🌍 Kangra, Himachal Pradesh, India  
-- 📧 [parshant0011pk@gmail.com](mailto:parshant0011pk@gmail.com)  
-- 📞 +91 7876339596  
-- 💼 [LinkedIn – Parshant](#) *(Add your LinkedIn URL)*
+- 📧 parshant0011pk@gmail.com  
+- 📞 +91 XXXXXXXXXX  
+- 💼 [LinkedIn](#)
 
 ---
 
 ## 🧠 Professional Summary
 
-- 💡 Strong foundation in web development principles  
-- 🔁 Committed to continuous learning and improvement  
-- 🧪 Hands-on with real-world projects and problem-solving  
-- 💻 Currently pursuing MCA and building professional-grade applications  
+- ☁️ Hands-on experience designing AWS production architectures  
+- 🔁 Strong understanding of CI/CD pipelines and automation workflows  
+- 🐳 Working with Docker and containerized deployments  
+- 📦 Building scalable systems using Load Balancer + Auto Scaling  
+- 🔐 Focused on IAM roles and security best practices  
+- 📊 Learning infrastructure monitoring and performance optimization  
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Science (B.Sc) in Computer Science**  
-Govt College Dhaliara, Kangra  
-*Graduated: May 2024*
-
-**Master of Computer Applications (MCA)**  
+### Master of Computer Applications (MCA)
 Sant Baba Bhag Singh University, Punjab  
-*August 2024 – Present*
+August 2024 – Present  
+
+### Bachelor of Science (B.Sc) in Computer Science
+Govt College Dhaliara, Kangra  
+Graduated: May 2024  
 
 ---
 
-## 💼 Experience
+## ☁️ Technical Skills
 
-**Fresher** *(No formal work experience yet)*
+### Cloud Platform
+- AWS (EC2, VPC, IAM, S3, ALB, Auto Scaling, ECR, CodeDeploy, Route 53, RDS)
 
-- ✅ Completed multiple academic and personal projects  
-- 🔧 Self-learned tools and frameworks beyond curriculum  
-- 📈 Focused on building a strong developer portfolio  
+### DevOps & Containers
+- Docker  
+- CI/CD Concepts  
+- Blue/Green Deployment  
+- Infrastructure Architecture Design  
 
----
+### Networking
+- VPC  
+- Public & Private Subnets  
+- Internet Gateway  
+- NAT Gateway  
+- Route Tables  
 
-## 🔧 Technical Skills
+### Backend Knowledge
+- Node.js  
+- Express.js  
 
-**Frontend:**  
-`HTML5`, `CSS3`, `JavaScript`, `React.js`, `Next.js`, `Tailwind CSS`
-
-**Backend:**  
-`Node.js`, `Express.js`
-
-**Database:**  
-`MongoDB` | Learning: `PostgreSQL`, `Prisma ORM`
-
-**Auth & Validation:**  
-`JWT`, `Zod`
-
-**Tools:**  
-`Git`, `GitHub`, `Postman`, `VS Code`
-
-**Others:**  
-`REST APIs`, `JSON`, `Responsive Design`
-
----
-
-## 💡 What I'm Doing
-
-### 🌐 Web Development  
-High-quality development of websites at a professional level.
-
-### 🔗 REST API  
-Node.js + Express backend with clean architecture, JWT auth, rate-limiting, and Prisma integration.
-
-### 🗃️ Database  
-PostgreSQL with Prisma ORM – efficient, scalable, and type-safe.
-
-### 💻 MERN Stack  
-Full-stack applications using MongoDB, Express, React, and Node.js.
+### Tools & Environment
+- Git  
+- GitHub  
+- Linux Basics  
+- Postman  
+- VS Code  
 
 ---
 
 ## 🚀 Projects
 
-### 🧠 Health AI Chatbot  
-- AI-powered chatbot using Gemini API  
-- Handles user health queries through a seamless chat UI  
-- Clean, minimal design for better UX  
+---
 
-### 💸 Simple Payment App (Paytm Clone)  
-- User-to-user payments with transaction sessions  
-- Balance display and transaction history  
-- Simple, intuitive interface  
+### ☁️ Production-Ready Highly Available Architecture on AWS
+
+🔗 GitHub Repository:  
+https://github.com/Parshant1231/aws-production-ha-architecture
+
+**Overview:**  
+Designed and deployed a production-ready, highly available web architecture on AWS following industry best practices.
+
+**Key Implementations:**
+- Custom VPC with Public & Private Subnets
+- Internet Gateway & NAT Gateway configuration
+- Application Load Balancer (ALB)
+- Auto Scaling across multiple Availability Zones
+- EC2 instances in private subnet
+- IAM Roles for secure access
+- Fault Tolerant & Scalable Infrastructure Design
 
 ---
 
-## 🌱 Additional Information
+### 🚀 Cloud-Native DevOps Platform
 
-- **Languages:** English, Hindi  
-- **Interests:** Web Development, AI Chatbots, Open Source Contribution  
+🔗 GitHub Repository:  
+https://github.com/Parshant1231/cloud-native-devops-platform
+
+**Overview:**  
+Built a cloud-native DevOps platform demonstrating containerized deployment and automated CI/CD workflows.
+
+**Key Implementations:**
+- Dockerized Node.js Application
+- Amazon ECR for container registry
+- CI/CD pipeline integration
+- Blue/Green Deployment strategy
+- Automated deployment workflow
+- Scalable and secure infrastructure setup
 
 ---
-
-## 🔗 Live Website
-
-[Visit My CV Website](#) *(Add your deployment URL here)*

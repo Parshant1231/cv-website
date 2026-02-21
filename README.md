@@ -19,7 +19,6 @@ My focus is on designing real-world cloud architectures that follow industry bes
 - 💼 [LinkedIn](#)
 
 ---
-
 ## 🧠 Professional Summary
 
 - ☁️ Hands-on experience designing AWS production architectures  
